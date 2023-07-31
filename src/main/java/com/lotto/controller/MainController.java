@@ -13,7 +13,6 @@ public class MainController {
 
     @GetMapping({"/getMap"})
     public void mainCon (){
-        log.info("Get in to the Servlet");
 
     }
 
