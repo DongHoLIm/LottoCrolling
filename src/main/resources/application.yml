@@ -1,0 +1,19 @@
+server :
+  port : 8001
+  servlet :
+    context-path : /apis
+    encoding :
+      charset : UTF-8
+      enabled : true
+      force : true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lotto?serverTimezone=Asia/Seoul
+    username: root
+    password:
+  servlet:
+    multipart:
+      max-file-size: 180MB
+      max-request-size: 120MB
